@@ -7,7 +7,7 @@ pipeline {
                    reuseNode true                    
                    filename 'Dockerfile'
                    dir '.'
-                   additionalBuildArgs '-t flask_app'
+                   additionalBuildArgs '-t flask2222'
                }
            }
            steps {
