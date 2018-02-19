@@ -1,11 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
-    apt-get update \
-    && apt-get install -qy \
-    python python-setuptools \
-    python-dev build-essential \
-    python-pip python-mysqldb python-flask
+    apt-get update 
 
 COPY app.py /opt/app.py
 
