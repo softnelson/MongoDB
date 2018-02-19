@@ -7,7 +7,7 @@ pipeline {
                    reuseNode true                    
                    filename 'Dockerfile'
                    dir '.'
-                   additionalBuildArgs '-t Mongo'
+                   additionalBuildArgs '-t flask_app'
                }
            }
            steps {
