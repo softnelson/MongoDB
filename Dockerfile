@@ -2,7 +2,8 @@ FROM ubuntu:latest
 
 RUN \
 	apt-get update \
-	apt-get install mongo \
+	apt-get install python-pip
+	pip install pymongo
 
 EXPOSE 5000
 
