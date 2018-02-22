@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN \
 	apt-get update \
 	apt-get install python-pip
-	pip install pymongo
+	apt-get install pymongo
 
 EXPOSE 5000
 
