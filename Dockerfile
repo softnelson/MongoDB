@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 
 RUN \
-	&& apt-get update \
-	&& apt-get install mongo \
+	apt-get update \
+	apt-get install mongo \
 
 COPY app.py /opt/app.py
 
